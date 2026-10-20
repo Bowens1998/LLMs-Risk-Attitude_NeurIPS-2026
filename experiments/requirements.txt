@@ -1,0 +1,5 @@
+# Phase-1 runner (live API calls)
+requests>=2.28
+numpy>=1.24
+# Phase-2 scoring --refit only (pooled K-means)
+scikit-learn>=1.2

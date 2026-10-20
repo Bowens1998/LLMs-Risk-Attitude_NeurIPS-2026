@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Benchmarking Risk Attitudes of LLMs"
+license: MIT
+authors:
+  - family-names: Sun
+    given-names: Bowen
+  - family-names: Min
+    given-names: Rui
+  - family-names: Li
+    given-names: Xianyao
+  - family-names: Wang
+    given-names: Yuxi
+  - family-names: Ye
+    given-names: Yang
+  - family-names: Wang
+    given-names: Qi R.
+  - family-names: Du
+    given-names: Jing
+preferred-citation:
+  type: conference-paper
+  title: "Benchmarking Risk Attitudes of LLMs"
+  authors:
+    - family-names: Sun
+      given-names: Bowen
+    - family-names: Min
+      given-names: Rui
+    - family-names: Li
+      given-names: Xianyao
+    - family-names: Wang
+      given-names: Yuxi
+    - family-names: Ye
+      given-names: Yang
+    - family-names: Wang
+      given-names: Qi R.
+    - family-names: Du
+      given-names: Jing
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS 2026), Track on Evaluations and Datasets"
+  year: 2026

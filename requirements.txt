@@ -1,0 +1,13 @@
+# Analysis (tested with Python 3.13)
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+statsmodels>=0.14
+scikit-learn>=1.4
+matplotlib>=3.9
+openpyxl>=3.1   # reads the public human workbook for the grouped human figure
+
+# Optional: the participant random-intercept model in analysis/human/clmm.R
+# needs R >= 4.3 with the 'ordinal' package (install.packages("ordinal")).
+
+# Data collection has its own requirements: experiments/requirements.txt

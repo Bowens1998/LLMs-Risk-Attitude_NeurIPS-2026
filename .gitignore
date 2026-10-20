@@ -1,0 +1,22 @@
+# downloaded dataset and generated results
+data/hf/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+
+# secrets and local settings
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db

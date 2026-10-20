@@ -1,0 +1,47 @@
+{
+  "version": "neurips2026-reference-v1",
+  "description": "Frozen reference mapping used to convert DNC and FIP continuous action indices to R_D in {1,2,3,4,5}. New models are assigned to the nearest frozen center without refitting.",
+  "DNC": {
+    "raw_measure": "SI = logit(VCR / (VCR + HPR + 0.001)), clipped to [0.001, 0.999], computed on steps with drift_row != 0 (all steps if none)",
+    "direction": "higher SI is more cautious; R_D=1 is most cautious",
+    "centers_in_R_D_order": [
+      6.868043918281026,
+      1.0783865284913943,
+      0.11303487689571717,
+      -0.8343466753906355,
+      -6.906754778648555
+    ],
+    "adjacent_midpoint_boundaries_in_R_D_order": [
+      3.9732152233862097,
+      0.5957107026935557,
+      -0.3606558992474591,
+      -3.8705507270195953
+    ],
+    "observed_reference_range": {
+      "minimum": -6.906754778648555,
+      "maximum": 6.906754778648555
+    }
+  },
+  "FIP": {
+    "raw_measure": "H / (L + M + H)",
+    "direction": "higher high-risk allocation is more aggressive; R_D=1 is most cautious",
+    "centers_in_R_D_order": [
+      0.08230593607305913,
+      0.17734042553191486,
+      0.2917218543046358,
+      0.44652173913043455,
+      0.5945945945945944
+    ],
+    "adjacent_midpoint_boundaries_in_R_D_order": [
+      0.129823180802487,
+      0.23453113991827532,
+      0.3691217967175352,
+      0.5205581668625145
+    ]
+  },
+  "CTD": {
+    "raw_measure": "finalized ESI",
+    "direction": "native five-level ordinal decision; used directly",
+    "mapping": "R_D = ESI"
+  }
+}
